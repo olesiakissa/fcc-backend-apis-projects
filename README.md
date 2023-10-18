@@ -30,3 +30,17 @@ If the input date string is invalid and cannot be parsed by JavaScript's new Dat
 When the date parameter is empty or not provided, the service should return the current time in a JSON object.
 The response should include a unix key and a utc key, similar to the first test.
 <img src='./readme_img/timestamp-service-3.png'  alt='example of empty timestamp parameter json' width='400'>
+
+# Request Header Parser Microservice
+
+**Live Demo:** [Header Parser Microservice Demo](https://headerparser-mhm9.onrender.com)
+
+[FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/request-header-parser-microservice)
+
+**Code:** _tba_
+
+## Project Description
+
+The Request Header Parser Microservice is a web service that provides information about the client's request headers. It allows users to obtain details about their IP address, preferred language, and software used to make the request. The Request Header Parser Microservice is a useful tool for extracting essential information from client request headers, making it easy to analyze and respond to user requests with accurate data.
+
+<img src='./readme_img/request-header-service.png' alt='example of information on user software' width='400'>
