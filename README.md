@@ -114,3 +114,20 @@ The Exercise Tracker is a web service that provides an API to create new users, 
 5. Retrieve Part of the Exercise Log
 
 - You can add from, to, and limit parameters to a GET /api/users/:\_id/logs request to retrieve part of the logs of any user.
+
+# File Metadata Microservice
+
+**Live Demo:** [File Metadata Microservice Demo](https://file-metadata-service-2gje.onrender.com)
+
+**Code:** _tba_
+
+[FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/file-metadata-microservice)
+
+## Project Description
+
+The File Metadata Microservice is a web service designed to handle file uploads and provide information about the uploaded files. It allows users to submit a form with a file and receive information about it, including its name, type, and size in bytes within the JSON response.
+
+**File Information Response**
+When you submit a file, you will receive the file name, type, and size in bytes within the JSON response.
+
+<img src='./readme_img/file-metadata.png' alt='information on uploaded file' width='400'>
