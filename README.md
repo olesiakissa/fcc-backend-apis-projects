@@ -37,7 +37,7 @@ The response should include a unix key and a utc key, similar to the first test.
 
 [FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/request-header-parser-microservice)
 
-**Code:** _tba_
+**Code:** [go to](https://shorturl.at/emB58)
 
 ## Project Description
 
@@ -49,7 +49,7 @@ The Request Header Parser Microservice is a web service that provides informatio
 
 **Live Demo:** [URL Shortener Microservice Demo](https://shortener-service.onrender.com)
 
-**Code:** _tba_
+**Code:** [go to](https://shorturl.at/emB58)
 
 [FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
 
@@ -66,7 +66,7 @@ You can POST a URL to `/api/shorturl` and get a JSON response with `original_url
 
 **Live Demo:** [Exercise Tracker Demo](https://exercise-tracker-service-13t3.onrender.com)
 
-**Code:** _tba_
+**Code:** [go to](https://shorturl.at/gnyGM)
 
 [FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/exercise-tracker)
 
@@ -119,7 +119,7 @@ The Exercise Tracker is a web service that provides an API to create new users, 
 
 **Live Demo:** [File Metadata Microservice Demo](https://file-metadata-service-2gje.onrender.com)
 
-**Code:** _tba_
+**Code:** [go to](https://shorturl.at/cKXY5)
 
 [FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/file-metadata-microservice)
 
