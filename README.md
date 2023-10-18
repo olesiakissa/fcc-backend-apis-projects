@@ -61,3 +61,56 @@ The URL Shortener Microservice is a web service that allows you to shorten long 
 You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties.
 
 <img src='./readme_img/url-shortener.png' alt='example of original url and short url json' width='400'>
+
+# Exercise Tracker
+
+**Live Demo:** [Exercise Tracker Demo](https://exercise-tracker-service-13t3.onrender.com)
+
+**Code:** _tba_
+
+[FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/exercise-tracker)
+
+## Project Description
+
+The Exercise Tracker is a web service that provides an API to create new users, record exercises, and retrieve exercise logs.
+
+### Data models:
+
+<img src='./readme_img/exercise-tracker.png' alt='data models for user, exercise and log' width='400'>
+
+**API Endpoints**
+
+1. Create a New User
+
+- You can POST to /api/users with form data username to create a new user.
+- The returned response from POST /api/users with form data username will be an object with username and \_id properties.
+
+<img src='./readme_img/exercise-tracker-2.png' alt='created object with username and id properties' width='400'>
+
+2. Get a List of All Users
+
+- You can make a GET request to /api/users to get a list of all users.
+- The GET request to /api/users returns an array.
+- Each element in the array returned from GET /api/users is an object literal containing a user's username and \_id.
+
+<img src='./readme_img/exercise-tracker-3.png' alt='list of created users' width='400'>
+
+3. Record an Exercise
+
+- You can POST to /api/users/:\_id/exercises with form data description, duration, and optionally date. If no date is supplied, the current date will be used.
+- The response returned from POST /api/users/:\_id/exercises will be the user object with the exercise fields added.
+
+<img src='./readme_img/exercise-tracker-4.png' alt='response for POST method with user object and with exercise added' width='400'>
+
+4. Retrieve Exercise Log for a User
+
+- You can make a GET request to /api/users/:\_id/logs to retrieve a full exercise log of any user.
+- A request to a user's log GET /api/users/:\_id/logs returns a user object with a count property representing the number of exercises that belong to that user.
+- A GET request to /api/users/:\_id/logs will return the user object with a log array of all the exercises added.
+- Each item in the log array that is returned from GET /api/users/:\_id/logs is an object that should have description, duration, and date properties.
+
+<img src='./readme_img/exercise-tracker-5.png' alt='response for GET method to retrieve user info and exercises assigned to it' width='400'>
+
+5. Retrieve Part of the Exercise Log
+
+- You can add from, to, and limit parameters to a GET /api/users/:\_id/logs request to retrieve part of the logs of any user.
