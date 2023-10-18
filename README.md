@@ -44,3 +44,20 @@ The response should include a unix key and a utc key, similar to the first test.
 The Request Header Parser Microservice is a web service that provides information about the client's request headers. It allows users to obtain details about their IP address, preferred language, and software used to make the request. The Request Header Parser Microservice is a useful tool for extracting essential information from client request headers, making it easy to analyze and respond to user requests with accurate data.
 
 <img src='./readme_img/request-header-service.png' alt='example of information on user software' width='400'>
+
+# URL Shortener Microservice
+
+**Live Demo:** [URL Shortener Microservice Demo](https://shortener-service.onrender.com)
+
+**Code:** _tba_
+
+[FreeCodeCamp description](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
+
+## Project Description
+
+The URL Shortener Microservice is a web service that allows you to shorten long URLs. It provides an API endpoint to POST a URL and receive a JSON response containing both the original URL and a short URL for easy redirection. When you visit /api/shorturl/short_url, you will be redirected to the original URL.
+
+**URL Shortening**
+You can POST a URL to `/api/shorturl` and get a JSON response with `original_url` and `short_url` properties.
+
+<img src='./readme_img/url-shortener.png' alt='example of original url and short url json' width='400'>
